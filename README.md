@@ -6,6 +6,9 @@ Mireille Muhawenimana
 ## Description
 News is  python application that allows users to list and preview news articles from various sources.
 
+## Specifications
+* Display headlines of articles.
+* List different kinds of articles.
 
 
 ## User Stories
