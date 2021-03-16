@@ -10,8 +10,8 @@ News is  python application that allows users to list and preview news articles 
 * Display headlines of articles.
 * List different kinds of articles.
 
-
 ## User Stories
+
 
 As a user I would like:
 * To see various news sources on the homepage of the application.
