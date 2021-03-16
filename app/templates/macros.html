@@ -1,0 +1,17 @@
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+{% macro displaySourcesList(sources_list) %}
+{% for source_row in sources_list |batch(4) %}
+<div class="row ">
+    {% for sources in source_row %}
+    <div class="col-md-3">
+        <div class="" style="background-color: transparent">
+            <h4><a style="color: rgb(9, 94, 173);" href="/sources/{{sources.id}}"><strong>{{sources.id}}</strong></a></h4>
+            <p style=> <small>{{sources.description |truncate(100)}}</small></p>
+            </div>
+            <hr>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
+{% endmacro %}
